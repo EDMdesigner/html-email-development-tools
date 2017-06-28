@@ -13,19 +13,19 @@
 
 	var posts = [
 		{
-			title: "HTML Email Development Tools - Introduction",
+			title: "HTML Email Development Tools - Introduction"
 		},
 		{
 			title: "Text editors, Development Tools and Scripting in HTML Email Development"
+		},
+		{
+			title: "HTML Email Testing"
 		},
 		{
 			title: "Code Generator and Modification Tools in HTML Email Development"
 		},
 		{
 			title: "CSS Preprocessors and Inlineing in HTML Email Coding"
-		},
-		{
-			title: "HTML Email Testing"
 		},
 		{
 			title: "Templating Languages in HTML Email Coding"
@@ -44,7 +44,7 @@
 	actPostIdx = parseInt(actPostIdx);
 
 	document.write('<div id="posts-toc">');
-	document.write('<p>This post is part of the <a href="http://blog.edmdesigner.com/posts/modern-html-email-tutorial">Lessons Learned in SaaS Development</a> article series which discusses the following topics:</p>');
+	document.write('<p>This post is part of the <a href="http://blog.edmdesigner.com/posts/html-email-development-tools">HTML Email Development Tools</a> article series which discusses the following topics:</p>');
 
 	document.write("<ul>");
 	for (var idx = 0; idx < posts.length; idx += 1) {
