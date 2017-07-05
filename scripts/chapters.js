@@ -16,10 +16,10 @@
 			title: "HTML Email Development Tools - Introduction"
 		},
 		{
-			title: "Text editors, Development Tools and Scripting in HTML Email Development"
+			title: "Code Editors and Scripting in HTML Email Development"
 		},
 		{
-			title: "HTML Email Testing"
+			title: "Browser Developer Tools and HTML Email Testing"
 		},
 		{
 			title: "Code Generator and Modification Tools in HTML Email Development"
