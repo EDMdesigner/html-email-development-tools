@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="0">  
+  <tr>
+    <td>
+       <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+             <td bgcolor="${1:COLOR}" style="${2:STYLES}; -webkit-border-radius:${3:3}px; border-radius:${3:3}px;" align="center">
+                 <a href="${4:HREF}" target="_blank" style="${5:FONTPROPERTIES};text-decoration:none; line-height:${6:54}px; width: ${7:150}px; display: inline-block;">
+                   <p style="${5:FONTPROPERTIES}; line-height:${6:54}px;">
+                      ${8:I am a button}
+                   </p>
+                </a>
+             </td>
+          </tr>
+       </table>
+     </td>
+  </tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bulletproof</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
