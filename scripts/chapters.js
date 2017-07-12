@@ -17,8 +17,8 @@
 			url: "http://blog.edmdesigner.com/html-email-development-tools/"
 		},
 		{
-			title: "Mastering Sublime Text for HTML Email Development",
-			url: "http://blog.edmdesigner.com/mastering-sublime-text-for-html-email-development/"
+			title: "How to Use Sublime Text for HTML Email Development",
+			url: "http://blog.edmdesigner.com/how-to-use-sublime-text-for-html-email-development/"
 		},
 		{
 			title: "Writing Scripts for HTML Emails"
