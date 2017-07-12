@@ -18,7 +18,7 @@
 		},
 		{
 			title: "Mastering Sublime Text for HTML Email Development",
-			url: "http://blog.edmdesigner.com/code-editors-and-scripting-in-html-email-development/"
+			url: "http://blog.edmdesigner.com/mastering-sublime-text-for-html-email-development/"
 		},
 		{
 			title: "Writing Scripts for HTML Emails"
