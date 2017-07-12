@@ -13,13 +13,18 @@
 
 	var posts = [
 		{
-			title: "HTML Email Development Tools - Introduction"
+			title: "HTML Email Development Tools - Introduction",
+			url: "http://blog.edmdesigner.com/html-email-development-tools/"
 		},
 		{
-			title: "Text editors, Development Tools and Scripting in HTML Email Development"
+			title: "Mastering Sublime Text for HTML Email Development",
+			url: "http://blog.edmdesigner.com/mastering-sublime-text-for-html-email-development/"
 		},
 		{
-			title: "HTML Email Testing"
+			title: "Writing Scripts for HTML Emails"
+		},
+		{
+			title: "Browser Developer Tools and HTML Email Testing"
 		},
 		{
 			title: "Code Generator and Modification Tools in HTML Email Development"
