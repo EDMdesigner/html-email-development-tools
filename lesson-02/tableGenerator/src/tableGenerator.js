@@ -1,34 +1,60 @@
-var fs = require("fs");
+// REQUIRE THE NECESSARY PACKAGES
 var pretty = require("pretty");
 var cheerio = require("cheerio");
 
-//var html = fs.readFileSync("index.html", "utf8");
+// LOAD CHEERIO
 var $ = cheerio.load("");
 
-// CREATE TABLE
+	
+function createLayout () {
+	var layoutWrapper = $("<table></table>");
+	var layoutSetupList = process.argv;
 
+	// LOOP THROUGH LAYOUT SETUP LIST RECEIVED FROM THE COMMAND LINE
+	for (var position = 2; position < layoutSetupList.length; position += 1) {
+		var columnCount = layoutSetupList[position];
 
-function createTable(row_count, col_count) {
-	var row_count = row_count;
-	var col_count = col_count;
+		// THE LAYOUT CAN'T CONTAIN ZERO OR NEGATIVE NUMBER OF COLUMNS
+		if (columnCount < 1) {
+			throw new Error ("The argument value has to be at least 1!");
+		}
 
-	var table = $("<table></table>");
-
-	for (var rows = 0; rows < row_count; rows += 1) {
+		// AND CERTAINLY WILL HAVE AN EMPTY ROW
 		var tr = $("<tr></tr>");
-		table.append(tr);
+		layoutWrapper.append(tr);
 
-		for (var cols = 0; cols < col_count; cols += 1) {	
-			var td = $("<td></td>");
-			tr.append(td);
+		// AND ADD A CELL IN
+		var td = $("<td></td>");
+		tr.append(td);
+
+		// IF ELEMENT HAS MORE THAN ONE COLUMN, WE POPUATE THE CELL WITH
+		// THE MULTI-COLUMN ELEMENT
+		if (columnCount > 1) {
+			td.append(createMultiColumn(columnCount));
 		}
 	}
+	
+	return layoutWrapper;
+}
 
-	return table;
-};
+function createMultiColumn(columnCount) {
 
-var table = createTable((process.argv[3]), (process.argv[4]));
+	var multiColTable = $("<table></table>");
+	var tr = $("<tr></tr>");
 
-$("body").append(table);
+	multiColTable.append(tr);
+
+	for (var cols = 0; cols < columnCount; cols += 1) { 
+		var td = $("<td></td>");
+		tr.append(td);
+	}
+	
+	return multiColTable;
+}
+
+
+var layout = createLayout();
+
+$("body").append(layout);
 
 console.log(pretty($.html()));
