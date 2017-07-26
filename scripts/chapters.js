@@ -21,7 +21,8 @@
 			url: "http://blog.edmdesigner.com/how-to-use-sublime-text-for-html-email-development/"
 		},
 		{
-			title: "Writing Scripts for HTML Emails"
+			title: "How to Use JavaScript for Creating HTML Email Layouts",
+			url: "http://blog.edmdesigner.com/how-to-use-javascript-for-creating-html-email-layouts/"
 		},
 		{
 			title: "Browser Developer Tools and HTML Email Testing"
