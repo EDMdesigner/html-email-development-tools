@@ -1,0 +1,20 @@
+{
+  "name": "table-genarator",
+  "version": "1.0.0",
+  "description": "Repository for generating HTML Email tables with Node.js",
+  "main": "tableGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "email",
+    "table"
+  ],
+  "author": "EDMdesigner.com",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "pretty": "^2.0.0"
+  }
+}
