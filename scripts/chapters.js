@@ -25,12 +25,11 @@
 			url: "http://blog.edmdesigner.com/how-to-use-javascript-for-creating-html-email-layouts/"
 		},
 		{
-			title: "Browser Developer Tools and Visual Email Testing"
-			url: "http://blog.edmdesigner.com/how-to-use-javascript-for-creating-html-email-layouts/"
+			title: "Visual Email Testing with Developer Tools, Litmus and Email on Acid",
+			url: "http://blog.edmdesigner.com/visual-email-testing/"
 		},
 		{
-			title: "Browser Developer Tools and HTML Email Testing   2"
-			url: "Browser Developer Tools and HTML Email Testing  2"
+			title: "Code Quality Tools and Client Specific Targeting"
 		},
 		{
 			title: "Code Generator and Modification Tools in HTML Email Development"
