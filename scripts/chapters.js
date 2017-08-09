@@ -29,7 +29,7 @@
 			url: "http://blog.edmdesigner.com/visual-email-testing/"
 		},
 		{
-			title: "Code Quality Tools and Client Specific Targeting"
+			title: "Code Quality Tools and Email Client Specific Targeting"
 		},
 		{
 			title: "Code Generator and Modification Tools in HTML Email Development"
