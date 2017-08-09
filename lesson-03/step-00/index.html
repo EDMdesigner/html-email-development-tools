@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>	
+
+	table {
+		background-color: black;
+		border: 1px solid #000;
+	}
+
+	table td {
+		background-color: orange;
+	}
+
+	table tr {
+		background-color: red;
+	}
+
+	table .outer {
+		min-height: 400px;
+		background-color: green;
+	}
+
+	table .inner {
+		height: 300px;
+		margin-bottom: 300px;
+		background-color: blue;
+	}
+
+</style>
+</head>
+<body>
+	
+	<h1>Chrome / Firefox min-height rendering difference</h1>
+	<p> There seems to be a difference in Chrome and Firefox when it comes to elements with a min-height, that contain elements with margin-bottom. </p>
+	<p>	If you open this demo in Chrome and Firefox and compare the two, you'll see that the margin-bottom is not applied on Firefox on the outer `DIV`, while 
+		it is applied on Chrome. </p>
+
+	<table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">TABLE,
+		<tr>TR element
+			<td>TD element
+				<div class="outer">Outer DIV
+					<div class="inner">Inner DIV</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+<script>document.write('<script src="http://localhost:35729/livereload.js"></' + 'script>')</script>
+
+</body>
+</html>
+
+
