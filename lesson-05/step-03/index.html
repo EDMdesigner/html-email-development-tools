@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+<meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+<title>Email Layout Calculator</title>
+
+<!-- Included CSS for non gmail clients -->
+<style type="text/css">
+   
+   * { 
+     border: 3px dashed black;
+     padding: 10px;
+ }
+
+ /* Level Two: reset mobile gmail first gutters */
+ .col-first-td {
+   padding-left:  20px !important;
+   padding-right: 10px !important;
+ }
+
+ .col-last-td {
+   padding-left:  10px !important;
+   padding-right: 20px !important;
+ }
+
+ /* Level Three: use mobile gutter */
+ @media screen and (max-width: 599px) {
+   .col {
+     width: 100% !important;
+     max-width: 100% !important;
+   }
+
+   .col td {
+     padding-left:  10px !important;
+     padding-right: 10px !important;
+   }
+ }
+</style>
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<!-- Level One CSS (inlined): the mobile gmail first (but still works in Outlook) markup -->
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" id="container">
+ <tr>
+   <td>
+
+     <!--[if mso]><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td valign="top" width="300"><![endif]-->
+
+     <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="col" style="width:100%;max-width:300px;">
+       <tr>
+         <td class="col-first-td" style="padding-left:20px;padding-right:10px">
+           Column 1
+         </td>
+       </tr>
+     </table>
+
+     <!--[if mso]></td><td valign="top" width="300"><![endif]-->
+
+     <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="col" style="width:100%;max-width:300px;">
+       <tr>
+         <td class="col-last-td" style="padding-left:10px;padding-right:20px">
+           Column 2
+         </td>
+       </tr>
+     </table>
+
+     <!--[if mso]></td></tr></table><![endif]-->
+
+   </td>
+ </tr>
+</table><!--/#container-->
+
+</body>
+</html>
