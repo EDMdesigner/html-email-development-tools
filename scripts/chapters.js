@@ -37,7 +37,7 @@
 			url: "http://blog.edmdesigner.com/code-generator-used-in-html-email-development/"
 		},
 		{
-			title: "Code Modification Tools in HTML Email Development"
+			title: "Code Modification Tools Used in HTML Email Development"
 		},
 		{
 			title: "CSS Preprocessors and Inlineing in HTML Email Coding"
