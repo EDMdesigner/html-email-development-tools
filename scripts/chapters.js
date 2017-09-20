@@ -33,8 +33,8 @@
 			url: "http://blog.edmdesigner.com/code-quality-tools-and-email-client-specific-targeting/"
 		},
 		{
-			title: "Code Generator Tools in HTML Email Development",
-			url: "http://blog.edmdesigner.com/code-generator-in-html-email-development/"
+			title: "Code Generator Tools Used in HTML Email Development",
+			url: "http://blog.edmdesigner.com/code-generator-used-in-html-email-development/"
 		},
 		{
 			title: "Code Modification Tools in HTML Email Development"
