@@ -14,23 +14,23 @@
 	var posts = [
 		{
 			title: "HTML Email Development Tools - Introduction",
-			url: "http://blog.edmdesigner.com/html-email-development-tools/"
+			url: "https://blog.edmdesigner.com/html-email-development-tools/"
 		},
 		{
 			title: "How to Use Sublime Text for HTML Email Development",
-			url: "http://blog.edmdesigner.com/how-to-use-sublime-text-for-html-email-development/"
+			url: "https://blog.edmdesigner.com/how-to-use-sublime-text-for-html-email-development/"
 		},
 		{
 			title: "How to Use JavaScript for Creating HTML Email Layouts",
-			url: "http://blog.edmdesigner.com/how-to-use-javascript-for-creating-html-email-layouts/"
+			url: "https://blog.edmdesigner.com/how-to-use-javascript-for-creating-html-email-layouts/"
 		},
 		{
 			title: "Visual Email Testing with Developer Tools, Litmus and Email on Acid",
-			url: "http://blog.edmdesigner.com/visual-email-testing/"
+			url: "https://blog.edmdesigner.com/visual-email-testing/"
 		},
 		{
 			title: "Code Quality Tools and Email Client Specific Targeting",
-			url: "http://blog.edmdesigner.com/code-quality-tools-and-email-client-specific-targeting/"
+			url: "https://blog.edmdesigner.com/code-quality-tools-and-email-client-specific-targeting/"
 		},
 		{
 			title: "Code Generator Tools Used in HTML Email Development",
