@@ -38,7 +38,7 @@
 		},
 		{
 			title: "Code Modification Tools Used in HTML Email Development",
-			url: "https://blog.edmdesigner.com/code-modification-tools-used-in-modern-html-email-development/"
+			url: "https://blog.edmdesigner.com/email-html-modification-tools/"
 		},
 		{
 			title: "CSS Preprocessors and Inlineing in HTML Email Coding"
