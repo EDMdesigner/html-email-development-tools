@@ -38,7 +38,7 @@
 		},
 		{
 			title: "Open Source Email HTML Modification Tools for Email Developers",
-			url: "https://blog.edmdesigner.com/email-html-modification-tools/"
+			url: "https://blog.edmdesigner.com/open-source-email-html-modification-tools/"
 		},
 		{
 			title: "CSS Preprocessors and Inlineing in HTML Email Coding"
