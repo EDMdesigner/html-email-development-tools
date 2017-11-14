@@ -15,18 +15,6 @@ $reorderBreakPoint: $containerWidth - 1px;
     width: $containerWidth !important;
 }
 
-.hero .col33 {
-    width: 33%;
-}
-
-.hero .col67 {
-    width: 67%;
-}
-
-.hero .col50 {
-    width: 50%;
-}
-
 @include mobile {
     .container, .col33, .col67, .col50  {
         @extend %mobileFullWidth;

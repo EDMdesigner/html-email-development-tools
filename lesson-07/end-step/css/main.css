@@ -55,6 +55,16 @@ p {
   padding-top: 6px;
   padding-bottom: 15px; }
 
+.hero {
+  background-color: #F8F7F0;
+  color: black; }
+  .hero .col33 {
+    width: 33%; }
+  .hero .col67 {
+    width: 67%; }
+  .hero .col50 {
+    width: 50%; }
+
 .button, .button-primary, .button-secondary {
   font-family: sans-serif;
   font-size: 13px;
@@ -82,15 +92,6 @@ p {
 
 .container {
   width: 600px !important; }
-
-.hero .col33 {
-  width: 33%; }
-
-.hero .col67 {
-  width: 67%; }
-
-.hero .col50 {
-  width: 50%; }
 
 @media only screen and (max-width: 599px) {
   .container, .col33, .col67, .col50 {

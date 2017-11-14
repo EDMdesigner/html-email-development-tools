@@ -1,8 +1,30 @@
-// $heroBgColor: #F8F7F0;
-// $heroDefaultTextColor: #58585A;
+$heroBgColor: #F8F7F0;
+$heroDefaultTextColor: #58585A;
 
-// lightness($heroBgColor);
 
-// background-color:
-// color:
+.hero {
+    background-color: $heroBgColor;
+    $colorLightness: lightness($heroBgColor);
+
+    @if ($colorLightness > 50%) {
+        $heroDefaultTextColor: darken($heroDefaultTextColor, 50%);
+        color: $heroDefaultTextColor;
+    } @else {
+        $heroDefaultTextColor: lighten($heroDefaultTextColor, 50%);
+        color: $heroDefaultTextColor;
+    }
+
+    .col33 {
+        width: 33%;
+    }
+
+    .col67 {
+        width: 67%;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+}
+
 
