@@ -1,0 +1,33 @@
+body, p {
+	margin:0;
+	padding:0;
+	margin-bottom:0;
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+}
+
+table {
+	border-spacing: 0;
+	mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+
+    td {
+        border-collapse: collapse;
+    }
+}
+
+.ExternalClass{
+    line-height:100%;
+	p, span, font, td, div {
+        @extend .ExternalClass;
+	}
+}
+
+.ReadMsgBody {
+    width: 100%;
+}
+
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
