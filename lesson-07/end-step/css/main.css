@@ -56,14 +56,16 @@ p {
   padding-bottom: 15px; }
 
 .hero {
-  background-color: #F8F7F0;
-  color: black; }
+  background-color: #000;
+  color: #d8d8d9; }
   .hero .col33 {
     width: 33%; }
   .hero .col67 {
     width: 67%; }
   .hero .col50 {
     width: 50%; }
+  .hero .alternate-background {
+    background-color: black; }
 
 .button, .button-primary, .button-secondary {
   font-family: sans-serif;

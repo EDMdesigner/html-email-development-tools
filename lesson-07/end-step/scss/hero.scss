@@ -1,4 +1,4 @@
-$heroBgColor: #F8F7F0;
+$heroBgColor: #000;
 $heroDefaultTextColor: #58585A;
 
 
@@ -7,10 +7,14 @@ $heroDefaultTextColor: #58585A;
     $colorLightness: lightness($heroBgColor);
 
     @if ($colorLightness > 50%) {
+        $alternateBg: complement($heroBgColor) !global;
         $heroDefaultTextColor: darken($heroDefaultTextColor, 50%);
+
         color: $heroDefaultTextColor;
     } @else {
+        $alternateBg: complement($heroBgColor) !global;
         $heroDefaultTextColor: lighten($heroDefaultTextColor, 50%);
+
         color: $heroDefaultTextColor;
     }
 
@@ -24,6 +28,10 @@ $heroDefaultTextColor: #58585A;
 
     .col50 {
         width: 50%;
+    }
+
+    .alternate-background {
+        background-color: $alternateBg;
     }
 }
 
