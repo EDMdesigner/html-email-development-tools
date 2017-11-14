@@ -12,7 +12,7 @@ $reorderBreakPoint: $containerWidth - 1px;
 }
 
 .container {
-    width: $containerWidth !important;
+    width: $containerWidth;
 }
 
 @include mobile {
