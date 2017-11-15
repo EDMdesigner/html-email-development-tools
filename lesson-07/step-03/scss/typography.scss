@@ -1,0 +1,38 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial;
+}
+
+/* default font sizes */
+$font-size: 28px;
+$line-height: 32px;
+$padding-top: 10px;
+$padding-bottom: 24px;
+
+@mixin applyFont ($constant) {
+    font-size: round($font-size * $constant);
+    line-height: round($line-height * $constant);
+    padding-top: round($padding-top * $constant);
+    padding-bottom: round($padding-bottom * $constant);
+}
+
+h1 {
+   @include applyFont(1);
+}
+
+h2 {
+    @include applyFont(0.85);
+}
+
+h3 {
+    @include applyFont(0.85 * 0.85);
+}
+
+p {
+    @include applyFont(0.85 * 0.85 * 0.85);
+}

@@ -1,0 +1,22 @@
+$containerWidth: 600px;
+$reorderBreakPoint: $containerWidth - 1px;
+
+@mixin mobile {
+    @media only screen and (max-width: $reorderBreakPoint) {
+        %mobileFullWidth {
+            width: 100% !important;
+        }
+
+        @content;
+    }
+}
+
+.container {
+    width: $containerWidth;
+}
+
+@include mobile {
+    .container, .col33, .col67, .col50  {
+        @extend %mobileFullWidth;
+    }
+}

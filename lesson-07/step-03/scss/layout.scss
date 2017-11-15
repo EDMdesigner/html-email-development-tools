@@ -1,0 +1,6 @@
+$containerWidth: 600px;
+$reorderBreakPoint: $containerWidth - 1px;
+
+.container {
+    width: $containerWidth;
+}
