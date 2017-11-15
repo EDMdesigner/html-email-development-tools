@@ -1,0 +1,49 @@
+$defaultColor: #ccdd22;
+$primaryColor: #ffbbcc;
+$secondaryColor: #7733cc;
+$defaultFontColor: #ffffff;
+
+$defaultWidth: 200px;
+$defaultHeight: 40px;
+
+@mixin color($color1, $color2) {
+    background-color: $color1;
+    color: $color2;
+}
+
+@mixin dimension($width, $lineheight) {
+    width: $width;
+    line-height: $lineheight;
+}
+
+.button {
+    font: {
+        family: sans-serif;
+        size: 13px;
+        weight: bold;
+    }
+
+    text: {
+        align: center;
+        decoration: none;
+    }
+
+    display:inline-block;
+    -webkit-text-size-adjust:none;
+
+    border: 1px solid #1e3650;
+    border-radius:4px;
+
+    @include color($defaultColor, $defaultFontColor);
+    @include dimension($defaultWidth, $defaultHeight);
+
+    &-primary {
+        @include color($primaryColor, $defaultFontColor);
+        @extend .button;
+    }
+
+    &-secondary {
+        @include color($secondaryColor, $defaultFontColor);
+        @extend .button;
+    }
+}

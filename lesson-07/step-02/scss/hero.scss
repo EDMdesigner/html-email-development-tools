@@ -1,4 +1,4 @@
-$heroBgColor: #000;
+$heroBgColor: #71b47b;
 $heroDefaultTextColor: #58585A;
 
 
@@ -18,6 +18,10 @@ $heroDefaultTextColor: #58585A;
         color: $heroDefaultTextColor;
     }
 
+    .alternate-background {
+        background-color: $alternateBg;
+    }
+
     .col33 {
         width: 33%;
     }
@@ -30,9 +34,17 @@ $heroDefaultTextColor: #58585A;
         width: 50%;
     }
 
-    .alternate-background {
-        background-color: $alternateBg;
+}
+
+@mixin mobile {
+    @media only screen and (max-width: $reorderBreakPoint) {
+
+        @content;
     }
 }
 
-
+@include mobile {
+    .container, .col33, .col67, .col50  {
+        width: 100% !important;
+    }
+}
