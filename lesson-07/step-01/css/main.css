@@ -1,0 +1,31 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial; }
+
+.button, .button-primary, .button-secondary {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-text-size-adjust: none;
+  border: 1px solid #1e3650;
+  border-radius: 4px;
+  background-color: #ccdd22;
+  color: #ffffff;
+  width: 200px;
+  line-height: 40px; }
+  .button-primary {
+    background-color: #ffbbcc;
+    color: #ffffff; }
+  .button-secondary {
+    background-color: #7733cc;
+    color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */
