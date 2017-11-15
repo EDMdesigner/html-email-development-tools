@@ -13,8 +13,9 @@ h6 {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  width: 200px;
+  line-height: 40px;
   display: inline-block;
-  -webkit-text-size-adjust: none;
   border: 1px solid #1e3650;
   border-radius: 4px;
   background-color: #ccdd22;
