@@ -1,0 +1,50 @@
+$heroBgColor: #71b47b;
+$heroDefaultTextColor: #58585A;
+
+
+.hero {
+    background-color: $heroBgColor;
+    $colorLightness: lightness($heroBgColor);
+
+    @if ($colorLightness > 50%) {
+        $alternateBg: complement($heroBgColor) !global;
+        $heroDefaultTextColor: darken($heroDefaultTextColor, 50%);
+
+        color: $heroDefaultTextColor;
+    } @else {
+        $alternateBg: complement($heroBgColor) !global;
+        $heroDefaultTextColor: lighten($heroDefaultTextColor, 50%);
+
+        color: $heroDefaultTextColor;
+    }
+
+    .alternate-background {
+        background-color: $alternateBg;
+    }
+
+    .col33 {
+        width: 33%;
+    }
+
+    .col67 {
+        width: 67%;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+}
+
+@mixin mobile {
+    @media only screen and (max-width: $reorderBreakPoint) {
+
+        @content;
+    }
+}
+
+@include mobile {
+    .container, .col33, .col67, .col50  {
+        width: 100% !important;
+    }
+}

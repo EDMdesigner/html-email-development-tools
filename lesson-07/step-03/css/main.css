@@ -55,18 +55,24 @@ p {
   padding-top: 6px;
   padding-bottom: 15px; }
 
+.container {
+  width: 600px; }
+
 .hero {
-  background-color: #000;
-  color: #d8d8d9; }
+  background-color: #71b47b;
+  color: black; }
+  .hero .alternate-background {
+    background-color: #b471aa; }
   .hero .col33 {
     width: 33%; }
   .hero .col67 {
     width: 67%; }
   .hero .col50 {
     width: 50%; }
-  .hero .alternate-background {
-    background-color: black; }
 
+@media only screen and (max-width: 599px) {
+  .container, .col33, .col67, .col50 {
+    width: 100% !important; } }
 .button, .button-primary, .button-secondary {
   font-family: sans-serif;
   font-size: 13px;
@@ -91,12 +97,5 @@ p {
     color: #ffffff;
     width: 150px;
     line-height: 30px; }
-
-.container {
-  width: 600px; }
-
-@media only screen and (max-width: 599px) {
-  .container, .col33, .col67, .col50 {
-    width: 100% !important; } }
 
 /*# sourceMappingURL=main.css.map */
