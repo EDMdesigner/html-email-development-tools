@@ -41,8 +41,8 @@
 			url: "https://blog.edmdesigner.com/open-source-email-html-modification-tools/"
 		},
 		{
-			title: "How to use Sass in Email Coding",
-			url: "https://blog.edmdesigner.com//"
+			title: "Beginner's Guide to Using Sass in Email Coding",
+			url: "https://blog.edmdesigner.com/beginners-guide-to-sass-in-email/"
 		},
 		{
 			title: "Inliner tools in Email Coding"
