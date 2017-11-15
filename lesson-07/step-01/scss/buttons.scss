@@ -6,6 +6,8 @@ $defaultFontColor: #ffffff;
 $defaultWidth: 200px;
 $defaultHeight: 40px;
 
+$defaultBorder: 1px solid #1e3650;
+
 @mixin color($color1, $color2) {
     background-color: $color1;
     color: $color2;
@@ -28,11 +30,11 @@ $defaultHeight: 40px;
         decoration: none;
     }
 
-    display:inline-block;
-    -webkit-text-size-adjust:none;
+    width: $defaultWidth;
+    line-height: $defaultHeight;
 
-    border: 1px solid #1e3650;
-    border-radius:4px;
+    display: inline-block;
+    border: $defaultBorder;
 
     @include color($defaultColor, $defaultFontColor);
     @include dimension($defaultWidth, $defaultHeight);
