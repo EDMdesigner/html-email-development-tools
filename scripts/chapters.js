@@ -41,7 +41,11 @@
 			url: "https://blog.edmdesigner.com/open-source-email-html-modification-tools/"
 		},
 		{
-			title: "CSS Preprocessors and Inlineing in HTML Email Coding"
+			title: "Beginner's Guide to Using Sass in Email Coding",
+			url: "https://blog.edmdesigner.com/beginners-guide-to-sass-in-email/"
+		},
+		{
+			title: "Inliner tools in Email Coding"
 		},
 		{
 			title: "Templating Languages in HTML Email Coding"
