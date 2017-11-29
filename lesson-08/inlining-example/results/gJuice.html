@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>One column layout</title>
+    <style>
+@media only screen and (max-width: 599px) {
+  .container,
+.col33,
+.col67,
+.col50 {
+    width: 100% !important;
+  }
+}
+</style>
+</head>
+
+<body style="margin: 0; padding: 0; margin-bottom: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; background-color: #F4F4F4;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%;">
+        <tr>
+            <td width="100%" style="border-collapse: collapse; min-width: 100%;">
+                <center>
+                    <table class="container" cellpadding="0" cellspacing="0" width="600" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 600px; margin: 0 auto;">
+                        <tr>
+                            <td width="100%" style="border-collapse: collapse; text-align: left;" align="left">
+
+                                <!-- header with image -->
+                                <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%;">
+                                    <tr>
+                                        <td width="100%" style="border-collapse: collapse; min-width: 100%; background-color: #FFFFFF; color: #000000; padding: 30px;" bgcolor="#FFFFFF">
+                                            <img alt="wonderful EDM logo" width="210" style="-ms-interpolation-mode: bicubic; display: block;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAAAkCAYAAAD8UmRGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEs9JREFUeNrsXHt0VNW5P5lMMpN3JiQhEPJgBHlIAJlcQG9BiTMg0qxYSiKPtpEunHThBcQ/CIJgu1jaxD9U9K/g6qK0TbHgrZerdt3VRFetdQFKWJRYkSKjgEoS84YQkkyS+/2Oe4eTM3ufeSRIWmavddZJzuz9ne98+3t/3zkRg4ODSigjIiJCCQ9FcTqd5XSq8DOtrLa2dt8Yxd9GJzcdeA78DTy3E75t4d2VD73cmMMkGdmw2+0b2tqMee6xxx7LIcYck0JkNpvfpWOu1WpVlWNPT4+bmMRCPz8a3t3Ah/k3UybUgKbBLjxwR0ao96yjA5znYUdt6fmGOh1smZbHXFcIuFYxreszCN6ITKvX6800+j0uLk5xuVx/HIubT7g9ExkZOZeOoWsWiwXCVBoWpCAF6a78/Hn9/zj9nd3w+sCgo18ZVPrIMvYNDCpdAwNgdA9zKfYRY7flFa28r+/Pb/mspblOmuukObVBCJE9I9rsTo403RSN3tHREWMyyWHn5OT0kaavG5ObbzaXiXBPSUkJS0aQw/Rd39BqilDiaPPA2GlRkUquJUqxW6Ps48yRFZGRppPE+A6pBqV1aVlZu4K5ny07t+xmCBFGenp6kZEQYUyePPnCWN18EnCr6HphYWF3WDTGuCCJRjT55hCqnKjIXBK0E92Xv06Vzm28vBhWJkBrZDO3NG26WXhXV1d3HTp0SHnllVfkBDaZjo/Vzb/33ntFMR+uPx8WjSCtu9GPiQu/Z7i4r6lBGbh+XbFk5yqdx/4mvkFikhI7M2/of9k8LlCwUB0fn7o7STIngaxL/LjUZ5XzDWv8PVxsWlqp7UpHjHKTEoyk0Q/jtGnTpv+is1CapkyZcmysbv6jjz56hE5FR48eVcaPHw9XVVmyZMmpxMTEvWHRCJIXTjzy/RaKkYRO8fz6C/5iEQTaMXR89mFejjBhEZ+/sG/m/j+8pw0tuj6pVy69WCEVqgE/prK9f0Bp6PXeQbGSxwi5P+VP+2bc9e5UozkLPr44YjF7+umnf3f27Nl1okTD/v377yCB84zFzR8cHES6G4mYYpb4UeNUwjec+vZPu8AtEg2XgTYe9v/xWdnCglR397UrNNelQ8Ix/dXqii9+8ZSz6fXfB+1vIua56scqkVtXnNB9LVUZxXoXaWwwnIMdQ4rj1KlTSkxMjCzR4AkQnp0ddYypcd7nr55DMNxsHWDY2JkrQJw9BOOwZv7QPrlcw7YFMCrYc7n83NPBhM+hua/CcMZxuJbl+9lcpwYnYc2Nprs08J0MvpPhpTCaAEYlzfWEuGeGNGa4ivADDct4golObqIdh4tReUvqSCyL5brecPnXrX9+u9Tb2RE0jPgr7atJWHbKrFJ6Zuau6NZvRkuAkI53R0dH25EqxhEVFeV3nSjRoC2AEjwbh4cDiYv+/n4HO4p7e3u3g6loE+skOJVbLBYb1vH1OPf19alC7vV6nQMDA5gLRilRky82myHOK1asyJXVvBiDl9M9nIS7ei+z2TykVIE33dNB93fTVOAMetlAq8LCwh+Twpl/+fJlpwGdVQtJ84uxBgdP5tBz2AG3p6fnEZq3zajAHSqNp06dWirCDzSkUQZBo/W1BDOZPz/Ggw8+OPeWFmQt4zO2JhcsW938P4cswa41skrI/FmaG/MUk2mkAgSNU2W1Wh2or5iChJecnPwXPTyC8TptQi4vgOoH33A1w2m1Jnd1db1L6+7mWpgxSQ1wksHgQs7PsbGxtpUrV06tq6ubd/HiRePskyQ5QvcFg7tBB5kS4bhjDhgV9AJ+cHHdbveZLVu2bJOtheUgodxBa+eCSQV4qXDpt6Tu7u6qb3nf1zKNhMaE2/0G+Dnpt/+mZ0nUw8zKyqq7pVk7+OI95qi/h7qeWSUfFZuSmbkjbhSEiAj3LgXeDrhtphDgTZ8+/W2tC0abdyIhISEX8AJpsWJMmEhW5NmhhEx09Bscp0DbtDBvzZo1H5JGX+Bvrj45AsGl4wQJozs+Pj4gS8yZlePHa2mdnZ3SbCvB30+HUIj0z0LzUHrYJnJzR0LjxsbGaVJei4//jUiIeMHd0CKxrgdZDKKE0mWgH9Zc++krijI/lLWwSu3JyVsUpeHnGrzs0d80rlRGUDviQiQiHMa6deuUhQsXqpmu6upq5ciRIz5z8Nu0adPe49qMtGkVGECUbi4qKlLuueceFQ7g6TeatOZDnFGI0e7TdiJoYcyePVvdWI/HM3QgI4ffwcgHDx7sBYOdPn1aqa+vV0TJEcLjT9prNP9FooVDf08M4Iz7Aj5GSUmJ1MWFQF65ciVOppDoueI4rUE7EhQVf7IWMmu/TG8xRkJjchlXQ4hlwkfPP0H0G5QEYi1DQcqymJ3KTR4dF784F+jcuJl5CjJ+w9Lhfb3bSHj2oiNCTdlnTNiW3NES0FoD7fNbcjOE2mfXrl3YmO0IqJFI2Lhx4+f0d65POjMzswsWFwxEzPgG3AzRBu/YsQPp5ueQSh8cHCynTfYJdq9du5aIM/nw7ubmZh84S5cu9RCTAKda3BPJHIKtBthr164t+fzzz/+5e/duZfXq1YgrbB988AG0uU+mdubMmb3a5AjiMPq/VCRECJfIXUMSoxJCCkYmrV4jcxdram78tH79eh8B4bRmcNX2sYaGhv/YvHmzsBICJae1miOlMdxG1ARlCoErAK3ywDO0tLR86DdBBvfI6PjOY6pZcxr012z93hirapW+LcDGdnWW+iQeVq1V+sxRnYEmFohoM0TahxjxGhEwn36r5Az39ddf54rgpKamerhGp02KF80pLS09QxtcwOpRcBEOi+ZNmDCB+/OTRL/v3bt3PK218SwcGJsOpLHLSCnY8/LyNrLruFZ56dKlBBEcEoSzWuYk3J4Bg+kHwQOzA1YJb3+aM2fOIzKaLlq0SBXwCKRvXa47rl69KpyngYuSgSsjI2Met3ZGYzRoDCvI8MuX3Qf4bd269TB4AOQkYU7Jzs7+SSCZ5jE1UgtX+vhQpohvrZLqZ6ellSb29fmopejZ897u7/d6A7kHmEekgUHEZcuWbdX2zTEXUAgnLS3tOP1uh0YXCSU074wZM36srdmQby8s6t55552qEiArGSVzi+DWEKxWJAVYdm0oDtXhbPd6vVEynDV02EIKJUbCnB9ASLXXZPEXGDQ3N3do3+jv1TL3af78+fVauFBW586JHRZyqTr584wmjck9XinjDYZfiYaevPn6X0uQkuc6nhd1W8AqkTVyJ5hMT5gifF26iT8ofilAa+SWMQ8j4rCUK9KlRokGcu/KRBodo6Cg4DXmEtlxXzrODwwMPCSau3z5cjVuueuuu1qNAnCKG3B2k3DXAJ5WoPggxnpIxsja5AgJ5ybRPLg2XAtrhyyRwF3cIe8gPX2xjGakqPboY1WRUmNW6CyDP6o0JtdvkcSV9MFvmEI3Yqz59RcMj9EY7Z98PDWILJ8nZdWakyKrNDEn54mY9tYc/W9JDxZeoHUBdYuT1fmRiHlkRCStLdTCcEeQaKANlmq3xx9/fDWKoyS452FNkpKS7KKMFbk6yKTtZIxW7c/VAVMhuwZ4TKDcOuvllFkOTXIENZsUiZtZpy8y80SCkYvLB8U9c2RuE3e/+DCyDnPnzv0re95RpTHFPTNEsFj8eDgkQQLvyo6IUXpF1hIZOTuY+enLvl8uskqRDV/NsOrMkWVStjJpfdlzgcLu7++3B0NEio+mS5iyGVq4qalpiuxetKlqcRRnWBN9NgvCS/44mLSMMy7FDHsROMMq+BuAB4ECA0Ew+PXu7u45/ixHfn7+f8qya+QC+bxblZWVdZ9svtZdVBVne7vwRTaycp/5ZHStVofMOsybN+81/D3aNG5ubk71Fz+Kxi0tyCI5cO2T+jkJQayBdfmi6uUzncf+NkOfGPF5+MKVrXp3zGhcvHgxUxTziIgILYxsmoiBiAHUTQm05qK3DPDIHnjggXYSBLdWgFlGroA2v6qoqKgYqe1jx44pjY2NikF9BlYBcUc5T46I8NJaDrJGUveLM7B2pKSkrJAlEAjPP2hT1DJXTV+8NrJe2uziaNLYCD+9QhhTghQdG/tiXG+PJdju7Bz3ppfa3zhU1fOlvEqPrvPUwh++ojz+ZMBwZZvS1tb2pYB5SmXfu5g4ceJpP7GYupl6dxC1E7pu2DzKrpWwFHfxunXrij0ejx1tPbLWHoqt8gJJjmgYLVPWASHqHSQtvlzm4mrdamT2ZHC18ZnWeokY2591CJXGweJ3ywWJvU9UkeLtLTaFUDiFlfnqt7969svKX0g7u8f9oOR6bFZ2UK8DwNSLCoAtLS3jBEL3RG9vr18tLBrE+B6keXWX1UZKzqgsOG7jDacs1hn6n2WOcGyHUBE8N1kmt6jQSlq3mydHRHWoQHDWZv20rTkQToqPMkUMT4zbEEhmj8eUuvuEbB1CpXEw+AUlSP46GzRDGoR1nT+XQHO1cOxRERH29KhI9d0ioaVKz1B6mxoMCTXxRz/d+U31fqlVSnIuPxDs6wBwGT766COfaPTMmTPzUV8igleyeKOCYo0c2Ua7XC5kihyIZeB+6cenn35qpznw/9F5XMv659SOaga/GM2oZWVl27mVQTH2woULDvrdw+jNO7s9BAvPWUfuGarsPiZnwYIFarp28uTJU2SCRDA8rLewjeKgr4gOwnnkth6heYvRMc37z2R0MJvNw9q/ZC04PKbUXjOyDuSenmM0s48mjWWZRxF+QQlSoJ0NcUuWdirvid2K6O7uKC0cEiL1BT4jlyxh8ZKrLa8fjA/VKqEAi1R5sJaOguZ6YiCHKBM2MDBQQRtQgZgIbTYy5mG4tWIeMlzKjVZ7beYMJ3QeY1PV9DW6qHl3Mm9VKSwsHCJqa2trHiwm3dtO68q9Xm95f3+/6sJgDVw2uubT4oIqPI9rKKaLNUhOnMfaVatW3Q/rRMy1QRR7EW6zenp6UK9S7wmcDOg5rH5F+EaLclSkAM4ImFfqXr755psoiFfm5eU953A4/kqCtHikNDZqYeIxr2Fyx1BA/HQ28CPKYo2R3iBiOBwjIUI2bubB/+243j8Q0NdYYJUgeD543+/8Yygv06GFRpZehvDwDJC/xkrUc8iCqPAEpZyhjUZWDTAxH3/jHhBabDBLB9dx9wlMyLNxaIVhKe5hWSk9k+LeFEMNdWEYvUIBGMB5w4YNlxDXLFq0SFizAiMCX8ACDrLkrf7rSUaFWIrh/k/mjooG7gsc6Nm6Fi9evGc0aGz0/Q3C7/iIBCnQkTz77q9Gsh5F09xnfqlMf7W61pqdO6+3qyugF5RglcaXPtatF8a0+x54LhQ8AA/pZX+1Gp42xUbIBirlgAc/HU2uRppbFCg//PDDH2rqIZloSA0m1kNthLXbbOfXCwoKjhvhwVLgcPGcJ0+e/Gwke8oya0MWSVaI1aaytYMsxfv6ZIFoHYR+NGhMey71vkhYD/iDNyrJhmAaT3kNyDopW7FkZSspS1eg3lPHMihqcHjyyY0B39u2vOj5xgOvPsNfDkx0La8fyeev0JdVUVFRQ66NA4E73Bt0IWNTIWA4eNqU/HP3kSNHnOim5gMMDwGjea9t3rwZwlk2ODjoIXcJMZYNsACzqalJPXNh5LBZB/c+llVSB234x3TU0nwn0t2AgXQz747mMLAWWSnCC/78dn3qf9asWVU7d+78GblGicAZa8F8HGdyk2rfeeedGnLZnBQXKqKOAd6ZjTXAd8+ePVI3WWdFkkSKJycn57rIe5g0adKBp5566sm33nori+8DBmDg3tgDvm40aExzhYkGrdUyVMKEQEgfiNTHqnTUBDiX+/38A5GH9YREh64ieOVXVARm3x04r9x43blEVDyVPaessEzz3cqNV50dyo1Xk+u0aVOGq1P3fLUi4jOY2lee7Rp6cNi1ssCW1qtBsjL8tXKbonu13KgCjwwfqyk52do2jvOKFSvW4jUNbYocgkZCzJWDdt9qd+/enUFB/ROi+7zwwgtbSZhe0ty3QhQv4pm1VlPwvOXK8FfOa9khLA+ESmMDOajVfyqBzfcRpJAkJ/zt73+vgTiMrMYJfZ3p5Zdf7sjIyPilSDmQO/UFBfM5IreJ3K2Uf+ePqIS//R0ewoG+tkuXLg27BguEVxlErhfKAbISAGsWva2+RGQKs1B4YCxcuNAnNY5XGPCek0iIrFZrhUiIEPTzBtDbaYRdu/Dgropz/fr1NfrOjs7OTjTz8rgE8YaThMgu+vwYc+mQ5Ki8DegVFqTwEI/333//KsVEPjnkvr4+tdjLC7+iegsTon36F/7CghQWpNvRKhXX19cf2rdvn2FHuXYgm8eyereNEIUFKTwCcvHoVHX06FE7/xIR3D2cueCgQwCJCJYSV79+GujLk2FBCo/bbeg/ScxrQBAYtUmW/V0XJpWi/L8AAwC25scXQw/YgAAAAABJRU5ErkJggg==">
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="hero" width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #71b47b; color: black; min-width: 100%;" bgcolor="#71b47b">
+                                    <tr>
+                                        <td width="100%" style="border-collapse: collapse; min-width: 100%; padding: 20px;">
+
+                                            <!-- Hero image -->
+                                            <table class="col33" align="left" cellpadding="0" cellspacing="0" border="0" width="33%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 33%;">
+                                                <tr>
+                                                    <td width="100%" align="center" style="border-collapse: collapse;">
+                                                        <img alt="wonderful Sass logo" src="https://pbs.twimg.com/profile_images/583681608269471744/jCR2zNJV_200x200.png" style="-ms-interpolation-mode: bicubic; display: block; max-width: 100%;">
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <!-- H1 -->
+                                            <table class="col67 alternate-background" align="left" cellpadding="0" cellspacing="0" border="0" width="67%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #b471aa; width: 67%;" bgcolor="#b471aa">
+                                                <tr>
+                                                    <td width="100%" style="border-collapse: collapse;">
+                                                        <!-- H1 -->
+                                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <tr>
+                                                                <td align="center" style="border-collapse: collapse;">
+                                                                    <h1 style="font-family: Arial; font-size: 28px; line-height: 32px; padding-top: 10px; padding-bottom: 24px;">
+                                                                        Email coding is the best
+                                                                    </h1>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <!-- P -->
+                                            <table class="col67" align="left" cellpadding="0" cellspacing="0" border="0" width="67%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 67%;">
+                                                <tr>
+                                                    <td width="100%" style="border-collapse: collapse;">
+                                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <tr>
+                                                                <td align="center" style="border-collapse: collapse;">
+                                                                    <p style="margin: 0; padding: 0; margin-bottom: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; font-family: Arial; font-size: 17px; line-height: 20px; padding-top: 6px; padding-bottom: 15px;">
+                                                                        Sign up for EDMdesigner blog to make it your poison! :)
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <!-- Button -->
+                                            <table class="col67" align="left" cellpadding="0" cellspacing="0" border="0" width="67%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 67%;">
+                                                <tr>
+                                                    <td width="100%" style="border-collapse: collapse;">
+                                                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                            <tr>
+                                                                <td align="center" style="border-collapse: collapse;">
+                                                                    <div>
+                                                                        <a class="button-secondary" href="https://edmdesigner.com" target="_blank" style="font-family: sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none; display: inline-block; -webkit-text-size-adjust: none; border: 1px solid #1e3650; border-radius: 4px; background-color: #7733cc; color: #ffffff; width: 150px; line-height: 30px;">
+                                                                            Show me a button!
+                                                                        </a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <!-- footer -->
+                                <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%;">
+                                    <tr>
+                                        <td width="100%" style="border-collapse: collapse; min-width: 100%; background-color: #58585A; color: #FFFFFF; padding: 30px;" bgcolor="#58585A">
+                                            <p style="margin: 0; padding: 0; margin-bottom: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; padding-top: 6px; padding-bottom: 15px; font-size: 16px; line-height: 20px; font-family: Georgia,Arial,sans-serif; text-align: center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
