@@ -45,7 +45,8 @@
 			url: "https://blog.edmdesigner.com/beginners-guide-to-sass-in-email/"
 		},
 		{
-			title: "Inliner tools in Email Coding"
+			title: "CSS Inliner Tools Worth Considering in Email Coding",
+			url: "https://blog.edmdesigner.com/css-inliner-tools-in-email"
 		},
 		{
 			title: "Templating Languages in HTML Email Coding"
