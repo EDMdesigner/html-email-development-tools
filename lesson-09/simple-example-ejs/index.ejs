@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            .even {
+                background-color: #abcdef;
+            }
+
+            .odd {
+                background-color: #fedcba;
+            }
+
+            .price {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><%= title %></h1>
+
+        <div>
+            <% for(let idx = 0; idx < products.length; idx +=1) { %>
+                <% if(idx % 2 === 0) { %>
+                <div class="even">
+                <% } else { %>
+                <div class="odd">
+                <% } %>
+                    <span><%= products[idx].name %></span>
+                    <span class="price">$<%= products[idx].price %></span>
+                </div>
+            <% } %>
+        </div>
+    </body>
+</html>
