@@ -49,7 +49,8 @@
 			url: "https://blog.edmdesigner.com/css-inliner-tools-in-email"
 		},
 		{
-			title: "Templating Languages in HTML Email Coding"
+			title: "How to Use a Templating Language in HTML Email Development",
+			url: "https://blog.edmdesigner.com/templating-languages-in-html-email"
 		},
 		{
 			title: "Task Automation in Email Development"
