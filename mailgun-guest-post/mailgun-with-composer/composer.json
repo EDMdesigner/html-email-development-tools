@@ -1,0 +1,14 @@
+{
+    "name": "smiska/mailgun-composer",
+    "require": {
+        "mailgun/mailgun-php": "^2.5",
+"php-http/curl-client": "1.7.1",
+        "guzzlehttp/psr7": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "Mihály",
+            "email": "saroy.mihaly@gmail.com"
+        }
+    ]
+}
